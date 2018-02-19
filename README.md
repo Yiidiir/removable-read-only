@@ -1,6 +1,10 @@
 # removable-read-only
 A small script to automate toggling read-only mode independently of partiton letter or drive 'rank'.
 
+##### Primary Idea
+This was inspired by the fact that *most* malware cannot override ```read-only mode``` because of the high required administrative privileges unless the whole system is taken-down already.
+**Disclaimer:** This script is provided "AS IS", without any warranties and should be used at your own risk.
+
 ![Example with output enabled](read-only-enabled.png)
 ## Getting Started
 
