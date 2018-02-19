@@ -3,6 +3,7 @@ A small script to automate toggling read-only mode independently of partiton let
 
 ##### Primary Idea
 This was inspired by the fact that *most* malware cannot override ```read-only mode``` because of the high required administrative privileges unless the whole system is taken-down already.
+
 **Disclaimer:** This script is provided "AS IS", without any warranties and should be used at your own risk.
 
 ![Example with output enabled](read-only-enabled.png)
@@ -64,12 +65,18 @@ Read-Only Enabled: True
 **********************************************************
 PS F:\>
 ```
+### Credits
+Useful resources i found while coding this:
+* https://blogs.technet.microsoft.com/heyscriptingguy/2013/08/26/automating-diskpart-with-windows-powershell-part-1/
+* https://www.thomasmaurer.ch/2012/04/replace-diskpart-with-windows-powershell-basic-storage-cmdlets/
+* https://stackoverflow.com/a/7195482/2073933
+* [@Hamz-a](https://github.com/Hamz-a/) 's [README.md](https://github.com/Hamz-a/txt2bmp/blob/master/README.md) template from [txt2bmp](https://github.com/Hamz-a/txt2bmp)
 ### TODO:
 * Auto-exit console
 * Add Help parameter 
 * Add Output parameter
 * Support Linux
 * Self-elevating permission in PowerShell 
-
+* Doing this with ```diskpart``` only?
 
 Licensed under the [MIT License](https://github.com/Yiidiir/removable-read-only/blob/master/LICENSE)
