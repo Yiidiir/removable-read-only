@@ -68,6 +68,7 @@ PS F:\>
 ### Credits
 Useful resources i found while coding this:
 * https://blogs.technet.microsoft.com/heyscriptingguy/2013/08/26/automating-diskpart-with-windows-powershell-part-1/
+* https://ss64.com/ps/
 * https://www.thomasmaurer.ch/2012/04/replace-diskpart-with-windows-powershell-basic-storage-cmdlets/
 * https://stackoverflow.com/a/7195482/2073933
 * [@Hamz-a](https://github.com/Hamz-a/) 's [README.md](https://github.com/Hamz-a/txt2bmp/blob/master/README.md) template from [txt2bmp](https://github.com/Hamz-a/txt2bmp)
